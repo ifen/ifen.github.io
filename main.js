@@ -3,7 +3,6 @@
 $(document).ready(function(){
   var on = false;
   $(".menu-button").click(function(){
-    alert('hello');
     if(on == false){
       $(".menu-bar").addClass("open");
       on = true;
@@ -11,6 +10,7 @@ $(document).ready(function(){
       $(".menu-bar").removeClass("open");
       on = false;
     }
+    return false;
   });
 });
 
