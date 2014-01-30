@@ -3,6 +3,7 @@
 $(document).ready(function(){
   var on = false;
   $(".menu-button").click(function(){
+    alert('hello');
     if(on == false){
       $(".menu-bar").addClass("open");
       on = true;
