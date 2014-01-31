@@ -12,6 +12,19 @@ $(document).ready(function(){
     }
     return false;
   });
+
+  $('html').click(function() {
+    if(on == true)
+    {
+      (".menu-bar").removeClass("open");
+      on = false;
+    }
+  });
+
+  $('.menu-bar').click(function(event){
+    event.stopPropagation();
+  });
+
 });
 
 
