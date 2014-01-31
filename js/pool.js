@@ -437,9 +437,9 @@ window.onload = function()
 	
 }
 else{
-	//$('.arrow-right').hide();
-	//$('.arrow-left').hide();
-	//$('.circle').hide();
+	$('.arrow-right').hide();
+	$('.arrow-left').hide();
+	$('.circle').hide();
 }	
 	canvas = document.getElementById('canvas');
 	context = canvas.getContext('2d');
