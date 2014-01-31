@@ -246,6 +246,10 @@
             .menu li{
               display:inline-block;
               float:left;
+              width: 16%;
+            }
+            .menu li a{
+              width: 100%;
             }
             .menu-bar li a{
               width:100%;
