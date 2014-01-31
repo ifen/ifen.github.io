@@ -459,8 +459,8 @@ window.onresize = function()
 {
 	if(!canvas) return;
 
-	screenWidth = canvas.clientWidth;
-	screenHeight = canvas.clientHeight;
+	screenWidth = $('.stuff-content').width();
+	screenHeight = $('.stuff-content').height();
 
 	canvas.width = screenWidth;
 	canvas.height = screenHeight;
