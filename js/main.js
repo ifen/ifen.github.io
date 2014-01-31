@@ -16,7 +16,7 @@ $(document).ready(function(){
   $('html').click(function() {
     if(on == true)
     {
-      (".menu-bar").removeClass("open");
+      $(".menu-bar").removeClass("open");
       on = false;
     }
   });
