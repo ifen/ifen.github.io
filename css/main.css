@@ -288,6 +288,10 @@
             .menu li,
             .menu-bar {
               font-size:80%;
+              width: 15%;
+            }
+            .menu li a{
+              width:100%;
             }
             .menu{
              height:4em;
