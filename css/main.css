@@ -208,7 +208,7 @@
             position: relative;
             /*font-family:verdana;*/
             border-bottom: 1px solid rgba(0, 0, 0, 0.05);
-            transition: background 0.3s ease-in-out;
+            transition: background 0.6s ease-in-out;
           }
           .menu-bar li:first-child a{
             height:5em;
