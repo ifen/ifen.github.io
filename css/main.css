@@ -149,7 +149,7 @@
             color: #5E9263;
             position: relative;
             border-bottom: 1px solid rgba(0, 0, 0, 0.05);
-            transition: background 0.1s ease-in-out;
+            transition: background 0.3s ease-in-out;
           }
           .menu li a:before {
             /*font-family: FontAwesome;*/
@@ -196,7 +196,7 @@
             z-index:5;
             width:0;
             height:0;
-            transition: all 0.1s ease-in-out;
+            transition: all 0.3s ease-in-out;
           }
           .menu-bar li a{
             display: block;
@@ -208,7 +208,7 @@
             position: relative;
             /*font-family:verdana;*/
             border-bottom: 1px solid rgba(0, 0, 0, 0.05);
-            transition: background 0.1s ease-in-out;
+            transition: background 0.3s ease-in-out;
           }
           .menu-bar li:first-child a{
             height:5em;
