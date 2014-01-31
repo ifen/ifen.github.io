@@ -230,6 +230,7 @@
             height:100%;
           }
 
+          
           @media all and (max-width: 500px) {
             body{
               style="overflow: auto;"
@@ -288,9 +289,6 @@
             .menu li,
             .menu-bar {
               font-size:80%;
-            }
-            .menu li a{
-              width:100%;
             }
             .menu{
              height:4em;
