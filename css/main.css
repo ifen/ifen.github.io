@@ -247,6 +247,7 @@
             }
             .menu-bar li a{
               width:100%;
+              transition: background 0.2s ease-in-out;
             }
             .menu-bar{
               width:100%;
