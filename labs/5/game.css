@@ -1,0 +1,33 @@
+.arrow-right {
+	width: 0; 
+	height: 0; 
+	border-top: 40px solid transparent;
+	border-bottom: 40px solid transparent;
+	border-left: 60px solid rgb(206, 200, 200);
+  position: absolute; bottom:50px; left:80px;
+	z-index: 1; 
+} 
+
+.arrow-left {
+	width: 0; 
+	height: 0; 
+	border-top: 40px solid transparent;
+	border-bottom: 40px solid transparent; 
+	border-right: 60px solid rgb(206, 200, 200); 
+  position: absolute; bottom:50px; left:8px;
+	z-index: 1; 
+} 
+
+#playButton {
+width: 100px; 
+height: 100px;
+position: relative;
+background-color: rgb(206, 200, 200);
+    position: absolute; bottom:50px; right:17px;
+	z-index: 1; 
+}
+.circle {
+border-radius: 50%;
+display: inline-block;
+margin-right: 20px;
+}
