@@ -61,7 +61,7 @@ a:hover{
 	background-color: rgba(255, 255, 255, .75);
 	box-sizing: border-box;
   font-size: .75rem;
-	padding: .5rem;
+	padding: 20px;
 	position: absolute;
 	bottom: 0;
 	left: 0;
@@ -70,14 +70,14 @@ a:hover{
 	transform: translateY(100%);
 	transition: all .5s ease-in-out;
 }
-.photoset-item a {
+.photoset-item span {
   border: 0;
   display: block;
   position: relative;
   width: 100%;
   height: 100%;
 }
-.photoset .photoset-item:hover a + figcaption {
+.photoset .photoset-item:hover span + figcaption {
 	-webkit-transform: translateY(0);
 	transform: translateY(0);
 }
