@@ -1,0 +1,88 @@
+body {
+  color: #333;
+  line-height: 1.5em;
+  margin-bottom: 1.5em;
+}
+main {
+	margin: 0 auto;
+  padding: 1.5rem 0;
+	width: 80%;
+}
+h1 {
+  font-weight: bold;
+  font-size: 2em;
+  line-height: 1.5em;
+  text-align: center;
+}
+p {
+  margin-bottom: 1.5rem;
+}
+hr {
+  border: none;
+  border-top: .125rem solid #ddd;
+  margin-bottom: 1.375rem;
+}
+a {
+  border-bottom: 2px solid #333;
+  color: #333;
+  text-decoration: none;
+  transition: all .125s ease-in-out;
+}
+a:hover{
+  border-bottom-color: #4a7298;
+  color: #4a7298;
+}
+
+/* General photoset style */
+ .photoset {
+	overflow: hidden;
+	width: 98%;
+}
+.photoset .photoset-row {
+	margin-bottom: .5rem;
+	overflow: hidden;
+  width: 150%;
+}
+	.photoset .photoset-row:last-child { margin: 0; }
+.photoset .photoset-item {
+	display: block;
+	float: left;
+	margin: 0 .25rem;
+}
+	.photoset .photoset-item:first-child { margin-left: 0; }
+	.photoset .photoset-item:last-child  { margin-right: 0; }
+.photoset figure {
+	margin: 0;
+	overflow: hidden;
+	position: relative;
+  -webkit-backface-visibility: hidden; /* To fix webkit 1px rendering bug */
+}
+.photoset figcaption {
+	background-color: rgba(255, 255, 255, .75);
+	box-sizing: border-box;
+  font-size: .75rem;
+	padding: .5rem;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	-webkit-transform: translateY(100%);
+	transform: translateY(100%);
+	transition: all .5s ease-in-out;
+}
+.photoset-item a {
+  border: 0;
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.photoset .photoset-item:hover a + figcaption {
+	-webkit-transform: translateY(0);
+	transform: translateY(0);
+}
+.photoset img {
+	display: block;
+  max-width: 100%;
+	transition: all .25s ease-in-out;
+}
