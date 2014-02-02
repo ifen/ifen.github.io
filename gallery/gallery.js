@@ -75,3 +75,9 @@ $(window).load(function () {
 
   $(window).resize();
 });
+
+$(document).ready(function (){
+
+  $('.photoset').show();
+
+});
