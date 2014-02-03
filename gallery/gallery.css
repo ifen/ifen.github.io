@@ -1,36 +1,8 @@
-body {
-  color: #333;
-  line-height: 1.5em;
-  margin-bottom: 1.5em;
-}
-main {
-	margin: 0 auto;
-  padding: 1.5rem 0;
-	width: 80%;
-}
-h1 {
-  font-weight: bold;
-  font-size: 2em;
-  line-height: 1.5em;
-  text-align: center;
-}
-p {
-  margin-bottom: 1.5rem;
-}
-hr {
-  border: none;
-  border-top: .125rem solid #ddd;
-  margin-bottom: 1.375rem;
-}
-a {
-  border-bottom: 2px solid #333;
-  color: #333;
-  text-decoration: none;
-  transition: all .125s ease-in-out;
-}
-a:hover{
-  border-bottom-color: #4a7298;
-  color: #4a7298;
+.photoset-loader{
+	width: 96%;
+	height: 2000px;
+	background-color: white;
+	opacity: 0.8;
 }
 
 /* General photoset style */

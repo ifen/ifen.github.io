@@ -65,7 +65,6 @@ $(function() {
 
 /* Wait for images to be loaded */
 $(window).load(function () {
-
 	// Store original image dimensions
 	$('.photoset-item img').each(function () {
       $(this)
@@ -77,7 +76,7 @@ $(window).load(function () {
 });
 
 $(document).ready(function (){
-
+  $('.photoset-loader').fadeOut();
   $('.photoset').show();
 
 });
