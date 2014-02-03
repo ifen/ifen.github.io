@@ -65,8 +65,8 @@ $(function() {
 
 /* Wait for images to be loaded */
 $(window).load(function () {
-	$('.photoset-loader').width($('.photoset').width()); 
-	$('.photoset-loader').height($('.photoset').height()); 
+	$('.photoset-loader').width($(document).width()-105); 
+	$('.photoset-loader').height($('.main-container').height()); 
 	// Store original image dimensions
 	$('.photoset-item img').each(function () {
       $(this)
@@ -78,7 +78,6 @@ $(window).load(function () {
 });
 
 $(document).ready(function (){
-  $('.photoset-loader').delay( 800 ).fadeOut( 1000 );
+  $('.photoset-loader').delay( 1200 ).fadeOut( 500 );
   $('.photoset').show();
-
 });
