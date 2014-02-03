@@ -1,8 +1,57 @@
 .photoset-loader{
 	width: 98%;
 	height: 1000px;
-	background-color: white;
+	background-color: rgb(27, 27, 27);
 	opacity: 0.8;
+}
+
+.ring1{
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background-color: transparent;
+  position: absolute;
+  left: 50%;
+  top: 200px;
+  -webkit-animation: rotate 1s infinite linear;
+  animation: rotate 1s infinite linear;
+  border-left: 5px solid rgba(75,75,75, .15);
+  border-bottom: 5px solid rgba(75,75,75, .15);
+  border-right: 5px solid rgba(75,75,75, .15);
+  border-top: 5px solid rgba(75,75,75, 1);
+  margin-left: -40px;
+}
+.ring2{
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background-color: transparent;
+  -webkit-animation: rotate .80s infinite linear;
+  animation: rotate .80s infinite linear;
+  border-left: 5px solid rgba(75,75,75, .15);
+  border-bottom: 5px solid rgba(75,75,75, .15);
+  border-right: 5px solid rgba(75,75,75, .15);
+  border-top: 5px solid rgba(75,75,75, 1);
+}
+.ring3{
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background-color: transparent;
+  -webkit-animation:  rotate .70s infinite linear;
+  animation: rotate .70s infinite linear;
+  border-left: 5px solid rgba(75,75,75, .15);
+  border-bottom: 5px solid rgba(75,75,75, .15);
+  border-right: 5px solid rgba(75,75,75, .15);
+  border-top: 5px solid rgba(75,75,75, 1);
+}
+@-webkit-keyframes rotate {
+  from{
+    -webkit-transform: rotate(0deg);
+  }
+  to{
+    -webkit-transform: rotate(360deg);
+  }
 }
 
 /* General photoset style */

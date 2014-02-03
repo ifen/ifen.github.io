@@ -65,6 +65,7 @@ $(function() {
 
 /* Wait for images to be loaded */
 $(window).load(function () {
+	$('.photoset-loader').height($('.photoset').height()); 
 	// Store original image dimensions
 	$('.photoset-item img').each(function () {
       $(this)
@@ -76,7 +77,7 @@ $(window).load(function () {
 });
 
 $(document).ready(function (){
-  $('.photoset-loader').fadeOut();
+  //$('.photoset-loader').delay( 800 ).fadeOut( 800 );
   $('.photoset').show();
 
 });
