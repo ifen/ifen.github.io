@@ -65,14 +65,17 @@ $(function() {
 
 /* Wait for images to be loaded */
 $(window).load(function () {
-	if ($('.menu').height() == 64){
-		$('.photoset-loader').width($(document).width()); 
-		$('.photoset-loader').height($('.main-container').height());
-	{
-	}else{
+	if($('.menu').height() == 64){
+		$('.photoset-loader').width($(document).width()-20); 
+		$('.photoset-loader').height($('.main-container').height()); 
+	}
+	else{
 		$('.photoset-loader').width($(document).width()-105); 
 		$('.photoset-loader').height($('.main-container').height()); 
 	}
+
+		
+
 	// Store original image dimensions
 	$('.photoset-item img').each(function () {
       $(this)
