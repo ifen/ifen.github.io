@@ -65,6 +65,7 @@ $(function() {
 
 /* Wait for images to be loaded */
 $(window).load(function () {
+	$('.photoset-loader').width($('.photoset').width()); 
 	$('.photoset-loader').height($('.photoset').height()); 
 	// Store original image dimensions
 	$('.photoset-item img').each(function () {
