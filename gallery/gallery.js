@@ -65,7 +65,7 @@ $(function() {
 
 /* Wait for images to be loaded */
 $(window).load(function () {
-	if ($('.menu').height() == 64)
+	if ($('.menu').height() == 64){
 		$('.photoset-loader').width($(document).width()); 
 		$('.photoset-loader').height($('.main-container').height());
 	{
