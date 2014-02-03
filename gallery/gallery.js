@@ -34,7 +34,7 @@ $(function() {
 		// Set photoset image size
 		$('.photoset-row').each(function () {
 			var $pi    = $(this).find('.photoset-item'),
-				  cWidth = $(this).parent('.photoset').width();
+				  cWidth = $( window ).width();
 
 			// Generate array containing all image aspect ratios
 			var ratios = $pi.map(function () {
