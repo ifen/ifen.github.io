@@ -78,7 +78,7 @@ $(window).load(function () {
 });
 
 $(document).ready(function (){
-  $('.photoset-loader').delay( 800 ).fadeOut( 800 );
+  $('.photoset-loader').delay( 800 ).fadeOut( 1000 );
   $('.photoset').show();
 
 });
