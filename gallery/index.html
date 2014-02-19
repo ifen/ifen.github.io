@@ -9,12 +9,44 @@
     href="../img/favicon.ico">
     <script src="../js/jquery-latest.min.js" type="text/javascript"></script>
     <script src="../js/main.js" type="text/javascript"></script>
-    <script src="gallery.js" type="text/javascript"></script>
+    <script src="http://fotorama.s3.amazonaws.com/4.4.9/fotorama.js" type="text/javascript"></script>
     <link rel="stylesheet" type="text/css" href="../css/main.css" />
-    <link rel="stylesheet" type="text/css" href="gallery.css" />
+    <link rel="stylesheet" type="text/css" href="http://fotorama.s3.amazonaws.com/4.4.9/fotorama.css" />
+    <script type="text/javascript">
+    </script>
   </head>
   <body>
-   <div class ="main-container">
+    <style type="text/css">
+    .main-container{
+      width: -webkit-calc(100% - 150px);
+    }
+
+    .fotorama {
+      max-width:80%;
+      margin:0px auto;
+      background:#fff;
+      padding:6px;
+      box-shadow:0px 0px 5px #888;
+      border-radius:3px;
+    }
+
+    @media all and (max-width: 500px) {
+     .main-container{
+      width: 95%;
+    }
+    
+    .fotorama {
+      max-width:93%;
+      margin:0px auto;
+      background:#fff;
+      padding:3px;
+      box-shadow:0px 0px 5px #888;
+      border-radius:3px;
+    }
+
+  }
+  </style>
+  <div class ="main-container">
     <div class="main-header">
       <div class="main-title">
         .gallery()
@@ -24,45 +56,22 @@
       </div>
     </div>
     <br/>
-    <div class="photoset-loader">
-    <div class="ring1">
-      <div class="ring2">
-        <div class="ring3">
-        </div>
-      </div>
-    </div>
-    </div>
-    <div class="photoset" style="display:none;">
-      <div class="photoset-row">
-        <figure class="photoset-item">
-          <span><img src="../img/gallery/1.jpg" /></span>
-          <figcaption>whisky casks, where all the magic takes place.</figcaption>
-        </figure>
-        <figure class="photoset-item">
-          <span><img src="../img/gallery/2.jpg" /></span>
-          <figcaption>macallan</figcaption>
-        </figure>
-      </div>
-      <div class="photoset-row">
-        <figure class="photoset-item">
-          <span><img src="../img/gallery/6.jpg" /></span>
-          <figcaption>new york city of my favourite cities in the world!</figcaption>
-        </figure>
-        <figure class="photoset-item">
-          <span><img src="../img/gallery/3.jpg" /></span>
-          <figcaption>a few of my favourite whiskys. ilay peatyness is unrivled.</figcaption>
-        </figure>
-      </div>
-       <div class="photoset-row">
-        <figure class="photoset-item">
-          <span><img src="../img/gallery/4.jpg" /></span>
-          <figcaption>between the constellations of auriga and taurus lies simeis 147, a vast supernova remnant nicknamed the spaghetti nebula.</figcaption>
-        </figure>
-        <figure class="photoset-item">
-          <span><img src="../img/gallery/7.jpg" /></span>
-          <figcaption>canalone, madeismo italy. one of the hardest black slopes in europe.</figcaption>
-        </figure>
-      </div>
+    <div class="fotorama" data-allowfullscreen="true" data-width="100%" data-ratio="800/400">
+      <img src="http://flickholdr.com/800/400" data-caption="I am the caption">
+      <img src="http://placekitten.com/800/400">
+      <img src="http://flickholdr.com/800/400">
+      <img src="http://flickholdr.com/800/400">
+      <img src="http://placekitten.com/800/400">
+      <img src="http://flickholdr.com/800/400">
+      <img src="http://flickholdr.com/800/400">
+      <img src="http://placekitten.com/800/400">
+      <img src="http://flickholdr.com/800/400">
+      <img src="http://flickholdr.com/800/400">
+      <img src="http://placekitten.com/800/400">
+      <img src="http://flickholdr.com/800/400">
+      <img src="http://flickholdr.com/800/400">
+      <img src="http://placekitten.com/800/400">
+      <img src="http://flickholdr.com/800/400">
     </div>
   </div>
   <ul class="menu">
