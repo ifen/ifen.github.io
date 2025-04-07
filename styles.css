@@ -1,0 +1,124 @@
+/* Reset and base styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: #333;
+  background: #fff;
+  line-height: 1.6;
+}
+
+/* Header & Navigation */
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #fff;
+  border-bottom: 1px solid #eaeaea;
+  z-index: 1000;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 15px;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #007aff;
+}
+
+/* Main content styling */
+main {
+  padding-top: 60px; /* leave space for fixed nav */
+}
+
+/* Section styling with alternating backgrounds */
+section {
+  min-height: 100vh;
+  padding: 60px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#about,
+#logistics {
+  background: #f8f8f8; /* light gray */
+}
+
+#research {
+  background: #fff; /* white */
+}
+
+section h1 {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+}
+
+section p {
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin-bottom: 20px;
+}
+
+/* About Section */
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.profile-img {
+  width: 300px;  /* larger profile image */
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+  margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+  background: #f4f4f4;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Links in research section */
+section a {
+  color: #007aff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+section a:hover {
+  text-decoration: underline;
+  color: #0051a3;
+}
