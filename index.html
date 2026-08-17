@@ -13,18 +13,26 @@
     />
     <meta name="author" content="Dr Ian Fenech Conti" />
     <title>Dr Ian Fenech Conti - Personal Website</title>
+    <link rel="canonical" href="https://ifen.github.io/" />
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="styles.css" />
 
     <!-- Open Graph meta tags for improved SEO on social sharing and image indexing -->
-    <meta property="og:image" content="https://example.com/ianfenechconti-profile.jpg" />
+    <meta property="og:title" content="Dr Ian Fenech Conti" />
+    <meta
+      property="og:description"
+      content="Software Engineer, AI &amp; Astrophysics Researcher, and Lecturer. Research in weak gravitational lensing and large-scale logistics optimisation."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://ifen.github.io/" />
+    <meta property="og:image" content="https://ifen.github.io/ianfenechconti-profile.jpg" />
     <meta property="og:image:alt" content="Profile picture of Dr Ian Fenech Conti" />
-    <meta property="og:image:width" content="600" />
-    <meta property="og:image:height" content="600" />
+    <meta property="og:image:width" content="517" />
+    <meta property="og:image:height" content="621" />
   </head>
   <body>
     <header>
-      <nav>
+      <nav aria-label="Main">
         <ul>
           <li><a href="#about">About Me</a></li>
           <li><a href="#research">Research</a></li>
@@ -34,20 +42,22 @@
     </header>
     <main>
       <section id="about">
-        <div class="about-container">
+        <div class="section-inner">
           <img
             src="ianfenechconti-profile.jpg"
             alt="Dr Ian Fenech Conti"
             itemprop="image"
-            width="600"
-            height="600"
-            class="profile-img"
+            width="517"
+            height="621"
+            class="profile-img reveal"
           />
-          <div class="about-text">
+          <div class="section-heading reveal">
             <h1>Dr Ian Fenech Conti</h1>
-            <h2 style="color: #999; font-size: 20px; margin-top: -25px; margin-bottom: 30px; font-weight: 200;">
-              Software Engineer | AI &amp; Astrophysics Researcher | Lecturer
-            </h2>
+            <p class="subtitle">
+              Software Engineer &middot; AI &amp; Astrophysics Researcher &middot; Lecturer
+            </p>
+          </div>
+          <div class="section-copy reveal">
             <p>
               Dr Ian Fenech Conti completed his undergraduate studies in
               Information Technology — specialising in Computer Science and
@@ -69,14 +79,12 @@
                 href="https://www.um.edu.mt/profile/ianfenech-conti"
                 target="_blank"
                 rel="noopener noreferrer"
-              >
-                Affiliate Lecturer
-              </a>
-              , continuing to advance his research while expanding into new
-              areas, including Artificial Intelligence and vision transformer
-              models applied to radio astronomy. He also contributes to academic
-              life through co-supervision of MSc and Ph.D. students and by
-              delivering occasional guest lectures on specialised topics.
+              >Affiliate Lecturer</a>, continuing to advance his research while
+              expanding into new areas, including Artificial Intelligence and
+              vision transformer models applied to radio astronomy. He also
+              contributes to academic life through co-supervision of MSc and
+              Ph.D. students and by delivering occasional guest lectures on
+              specialised topics.
             </p>
             <p>
               Dr Fenech Conti has since transitioned into industry while
@@ -86,117 +94,124 @@
                 href="https://www.linkedin.com/in/ianfenechconti"
                 target="_blank"
                 rel="noopener noreferrer"
-              >
-                LinkedIn
-              </a>
-              ), where he leads the development of advanced software solutions
-              for large-scale route planning and optimisation. His role spans
-              both technical and strategic domains, overseeing R&D initiatives,
-              shaping product direction, and delivering scalable,
-              high-performance tools for major players in the logistics and
-              retail sectors.
+              >LinkedIn</a>), where he leads the development of advanced
+              software solutions for large-scale route planning and
+              optimisation. His role spans both technical and strategic
+              domains, overseeing R&amp;D initiatives, shaping product
+              direction, and delivering scalable, high-performance tools for
+              major players in the logistics and retail sectors.
             </p>
           </div>
         </div>
       </section>
       <section id="research">
-        <img
-          src="research.jpg"
-          alt="Research illustration"
-          class="profile-img"
-        />
-        <div class="about-text">
-          <h1>Research</h1>
-          <p>
-            My primary research area focuses on applying Computer Science and AI
-            techniques to Astrophysics, specifically in the field of weak
-            gravitational lensing.
-          </p>
-          <p>
-            I contributed to the
-            <a
-              href="https://kids.strw.leidenuniv.nl/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Kilo-Degree Survey (KiDS)
-            </a>
-            project as a member of a team that developed an innovative
-            weak-lensing shear measurement pipeline. This pipeline incorporated
-            a self-calibration technique designed to correct for noise and
-            weight biases, successfully reducing shear biases to below 1%.
-          </p>
-          <p>
-            I have also contributed to the
-            <a
-              href="https://www.esa.int/Science_Exploration/Space_Science/Euclid"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Euclid Space Telescope
-            </a>
-            mission, where I designed a novel algorithm for modelling and
-            measuring the telescope's point spread function (PSF). This enables
-            accurate correction of PSF effects in weak-lensing analyses, thereby
-            enhancing the reliability of observations related to dark matter and
-            dark energy.
-          </p>
-          <p>
-            Additional details of my work can be found on my
-            <a
-              href="https://scholar.google.com/citations?user=UuERYwwAAAAJ&hl=en"
-              target="_blank"
-              rel="noopener noreferrer"
-              >Google Scholar</a>
-            and
-            <a
-              href="https://arxiv.org/search/?searchtype=author&query=Conti%2C+I+F"
-              target="_blank"
-              rel="noopener noreferrer"
-              >arXiv</a>
-            pages.
-          </p>
+        <div class="section-inner">
+          <div class="section-heading reveal">
+            <h2>Research</h2>
+            <p class="subtitle">Weak gravitational lensing, AI, and space telescopes.</p>
+          </div>
+          <img
+            src="research.jpg"
+            alt="Research illustration"
+            width="1886"
+            height="1060"
+            class="feature-img reveal"
+          />
+          <div class="section-copy reveal">
+            <p>
+              My primary research area focuses on applying Computer Science and AI
+              techniques to Astrophysics, specifically in the field of weak
+              gravitational lensing.
+            </p>
+            <p>
+              I contributed to the
+              <a
+                href="https://kids.strw.leidenuniv.nl/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >Kilo-Degree Survey (KiDS)</a>
+              project as a member of a team that developed an innovative
+              weak-lensing shear measurement pipeline. This pipeline incorporated
+              a self-calibration technique designed to correct for noise and
+              weight biases, successfully reducing shear biases to below 1%.
+            </p>
+            <p>
+              I have also contributed to the
+              <a
+                href="https://www.esa.int/Science_Exploration/Space_Science/Euclid"
+                target="_blank"
+                rel="noopener noreferrer"
+              >Euclid Space Telescope</a>
+              mission, where I was part of the team that developed an algorithm
+              for modelling and measuring the telescope's point spread function
+              (PSF). This work enables accurate correction of PSF effects in
+              weak-lensing analyses, helping to improve the reliability of
+              observations related to dark matter and dark energy.
+            </p>
+            <p>
+              Additional details of my work can be found on my
+              <a
+                href="https://scholar.google.com/citations?user=UuERYwwAAAAJ&hl=en"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Google Scholar</a>
+              and
+              <a
+                href="https://arxiv.org/search/?searchtype=author&query=Conti%2C+I+F"
+                target="_blank"
+                rel="noopener noreferrer"
+                >arXiv</a>
+              pages.
+            </p>
+          </div>
         </div>
       </section>
       <section id="logistics">
-        <img
-          src="routing.png"
-          alt="Logistics work illustration"
-          class="profile-img"
-        />
-        <div class="about-text">
-          <h1>Logistics</h1>
-          <p>
-            I currently work in the logistics industry, focusing on the software
-            domain, where I lead the research and development team behind a
-            sophisticated optimisation platform designed for large-scale
-            operations. Our product empowers major enterprises to plan,
-            schedule, and execute their routes and workloads with high
-            efficiency, leveraging state-of-the-art optimisation tools tailored
-            to real-world constraints.
-          </p>
-          <p>
-            At the core of our platform are advanced technologies and
-            intelligent algorithms capable of managing millions of daily
-            transactions. These systems ensure that jobs and routes are
-            fulfilled in the most efficient and practical manner—striking a
-            balance between performance, scalability, and operational
-            reliability.
-          </p>
-          <p>
-            In addition to overseeing technical development, I play a key role
-            in shaping the high-level strategy of the product—both from a
-            technical and a business perspective. I work closely with
-            stakeholders to define and evolve the product roadmap, ensuring that
-            we continuously innovate, introduce valuable new features, and
-            enhance existing functionality in response to user needs and
-            industry trends.
-          </p>
+        <div class="section-inner">
+          <div class="section-heading reveal">
+            <h2>Logistics</h2>
+            <p class="subtitle">Large-scale route planning and optimisation.</p>
+          </div>
+          <img
+            src="routing.png"
+            alt="Logistics work illustration"
+            width="1024"
+            height="1024"
+            class="feature-img feature-img--square reveal"
+          />
+          <div class="section-copy reveal">
+            <p>
+              I currently work in the logistics industry, focusing on the software
+              domain, where I lead the research and development team behind a
+              sophisticated optimisation platform designed for large-scale
+              operations. Our product empowers major enterprises to plan,
+              schedule, and execute their routes and workloads with high
+              efficiency, leveraging state-of-the-art optimisation tools tailored
+              to real-world constraints.
+            </p>
+            <p>
+              At the core of our platform are advanced technologies and
+              intelligent algorithms capable of managing millions of daily
+              transactions. These systems ensure that jobs and routes are
+              fulfilled in the most efficient and practical manner—striking a
+              balance between performance, scalability, and operational
+              reliability.
+            </p>
+            <p>
+              In addition to overseeing technical development, I play a key role
+              in shaping the high-level strategy of the product—both from a
+              technical and a business perspective. I work closely with
+              stakeholders to define and evolve the product roadmap, ensuring that
+              we continuously innovate, introduce valuable new features, and
+              enhance existing functionality in response to user needs and
+              industry trends.
+            </p>
+          </div>
         </div>
       </section>
     </main>
     <footer>
-      <p>&copy; 2025 Dr Ian Fenech Conti. All rights reserved.</p>
+      <p>&copy; 2026 Dr Ian Fenech Conti. All rights reserved.</p>
     </footer>
     <script src="main.js"></script>
   </body>
